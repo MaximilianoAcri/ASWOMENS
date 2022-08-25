@@ -1,0 +1,128 @@
+*{
+box-sizing: border-box;
+margin: 0;
+bottom: 0;
+}
+
+.navcolor {
+    background-color:  rgb(194, 139, 87) !important;
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+    text-decoration: none;
+    color: aliceblue;
+    z-index: 10;
+}
+.navcolor ul {
+    padding-left: 28%;
+}
+.navcolor a {
+    color: #ffff;
+}
+
+.navcolor a:hover {
+    color: rgb(194, 139, 87);
+    }
+
+.navcolor a:active {
+        box-shadow: 0 0,5px rgb(10, 0, 0);
+        transform: translateY(5px);
+    }
+
+.navbar-brand{
+font-display: solid ;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url(/images/rsmRecurso\ 5.png);
+}
+
+.carousel-caption {
+    color: rgb(255, 255, 255) ;
+    text-shadow: 0px 0px 5px #000;
+    margin-block-end: 15%;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.315);
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    padding-top: 15%;
+    margin-top: 0%;
+    margin-block-end: -4%;
+    z-index: 1;
+}
+
+.nuestrosproductos{
+    background-color: rgb(194, 139, 87) ;
+    color: #ffff;
+    text-shadow: 0px 0px 5px #000;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+.card{
+    padding: 0%;
+    border-radius: 0%;
+}
+
+.card:hover{
+    border:2px solid rgb(194, 139, 87);
+    transform:translateY(2px);
+    }
+
+.card-img-overlay{
+    background-color: rgba(194, 139, 87, 0.219);
+    padding-top: 35%;
+    margin: 0%;
+    text-align: center;
+    color: #ffff;
+}
+
+.card-img-overlay:hover{
+    background-color: rgba(194, 139, 87, 0);
+    padding-top: 35%;
+    margin: 0%;
+    text-align: center;
+    color: #ffff;
+}
+
+.btn-primary{
+    background-color: rgb(255, 255, 255);
+    border:1px rgb(194, 139, 87);
+    color: rgb(194, 139, 87);
+}
+
+.btn-primary:hover{
+    background-color: rgb(194, 139, 87);
+    border:1px rgb(194, 139, 87);
+    color: rgb(255, 255, 255);
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+}
+
+.whatsapp:hover{
+    background-color:#fff;
+    color: #25d366 ;
+}
+
+.whatsapp:active {
+    transform: translateY(5px);
+}
