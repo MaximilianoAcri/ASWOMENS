@@ -99,25 +99,7 @@ font-display: solid ;
     color: rgb(255, 255, 255);
 }
 
-.fa-arrow-up-to-line {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:105px;
-    background-color:#ffffff;
-    box-shadow: 0 0 5px #000;
-    color:rgb(194, 139, 87);
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
-    cursor:pointer;
-}
 
-.fa-arrow-up-to-line{
-    color: #dda969;
-}
 .prueba1:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
