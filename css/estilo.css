@@ -7,35 +7,29 @@ bottom: 0;
 .navcolor {
     background: rgb(221,169,105) !important;
     background: linear-gradient(90deg, rgba(221,169,105,1) 0%, rgba(199,138,63,1) 52%, rgba(143,106,62,1) 100%) !important;
-    text-align: center;
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 2px rgb(252, 252, 252);
     text-decoration: none;
-    color: aliceblue;
     z-index: 10;
 }
-.navcolor ul {
-    padding-left: 28%;
-}
+
 .navcolor a {
     color: #ffff;
 }
 
 .navcolor a:hover {
-    color: rgb(194, 139, 87);
+    color: rgba(0, 0, 0, 0.774);
     }
 
 .navcolor a:active {
-        box-shadow: 0 0,5px rgb(10, 0, 0);
         transform: translateY(5px);
     }
 
 .navbar-brand{
 font-display: solid ;
-
 }
 
-.navbar-toggler-icon {
-    background-image: url(/images/rsmRecurso\ 5.png);
+.fa-bars {
+    color: #FFF;
 }
 
 .carousel-caption {
@@ -75,7 +69,8 @@ font-display: solid ;
     }
 
 .card-img-overlay{
-    background-color: rgba(194, 139, 87, 0.219);
+    background-color: rgba(179, 138, 61, 0.219);
+    text-shadow: 0 0 5px #000;
     padding-top: 35%;
     margin: 0%;
     border-bottom: 0;
@@ -93,6 +88,7 @@ font-display: solid ;
 
 .btn-primary{
     background-color: rgb(255, 255, 255);
+    text-shadow: none;
     border:1px rgb(194, 139, 87);
     color: rgb(194, 139, 87);
 }
@@ -103,7 +99,7 @@ font-display: solid ;
     color: rgb(255, 255, 255);
 }
 
-.prueba1 {
+.fa-arrow-up-to-line {
     position:fixed;
     width:60px;
     height:60px;
@@ -119,6 +115,9 @@ font-display: solid ;
     cursor:pointer;
 }
 
+.fa-arrow-up-to-line{
+    color: #dda969;
+}
 .prueba1:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -135,6 +134,7 @@ font-display: solid ;
     height:60px;
     bottom:40px;
     right:40px;
+    padding-top: 5px;
     background-color:#25d366;
     box-shadow: 0 0 5px #000;
     color:#FFF;
@@ -144,8 +144,8 @@ font-display: solid ;
     z-index:100;
 }
 
-.whatsapp-icon {
-    margin-top:13px;
+.whatsapp {
+    margin-top:15px;
 }
 
 .whatsapp:hover{
@@ -153,16 +153,8 @@ font-display: solid ;
     color: #25d366 ;
 }
 
-.whatsapp:active {
+.whatsapp1:active {
     transform: translateY(5px);
-}
-
-.wpcn {
-    color: #FFF;
-}
-
-.fa-instagram {
-    color: #FFF;
 }
 
 
@@ -170,6 +162,18 @@ font-display: solid ;
     background: rgb(221,169,105);
     background: linear-gradient(90deg, rgba(221,169,105,1) 0%, rgba(199,138,63,1) 52%, rgba(143,106,62,1) 100%);
 }
+
+.redes{
+    color: #FFF;
+    padding-right: 12px;
+    padding-top: 10px;
+}
+
+.redes:hover{
+    color: #dda969 ;
+    padding-right: 12px;
+}
+
 
 .estilonombres{
     color: #dda969 ;
