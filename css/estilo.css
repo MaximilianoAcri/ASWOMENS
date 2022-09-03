@@ -175,3 +175,12 @@ font-display: solid ;
     font-weight: bold;
     padding: 10px;
 }
+
+.jumbofondo {
+background-image: url(/images/pexels-anastasia-shuraeva-5704722.jpg);
+background-size: cover;
+color: #FFF;
+text-shadow: 0 0 5px #000;
+margin-bottom: 0cm;
+
+}
