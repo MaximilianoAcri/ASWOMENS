@@ -53,6 +53,7 @@ font-size: larger;
 }
 
 
+
 @media (min-width: 576px) and (max-width: 767.98px){
 
     .tarjetaprincipal {
@@ -79,6 +80,23 @@ font-size: larger;
     
         .carousel-item {
         height: 300px;
+        }
+
+
+        .nosotros {
+            color: rgb(255, 255, 255) ;
+            text-shadow: 0px 0px 5px #000;
+            margin-block-end: 15%;
+            font-size:small !important;
+            background-color: rgba(0, 0, 0, 0.315);
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            padding-top: 15%;
+            margin-top: 0%;
+            margin-block-end: -4%;
+            z-index: 1;
+
         }
 }
 
@@ -215,7 +233,16 @@ font-size: larger;
 }
 
 .jumbofondo {
-background-image: url(../images/pexels-anastasia-shuraeva-5704722.jpg);
+background-image: url(../images/slippers-gb69fe5ac6_1280.jpg);
+background-position: 10px;
+color: #FFF;
+text-shadow: 0 0 5px #000;
+padding: 10%;
+margin-bottom: 0cm;
+
+}
+.jumbonosotros {
+    background-image: url(../images/shoes-sports-slippers-mineral-water-wallpaper-preview.jpg);
 background-size: cover;
 color: #FFF;
 text-shadow: 0 0 5px #000;
