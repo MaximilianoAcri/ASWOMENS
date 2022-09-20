@@ -2,12 +2,13 @@
 box-sizing: border-box;
 margin: 0;
 bottom: 0;
+
 }
 
 .navcolor {
     background: rgb(221,169,105) !important;
     background: linear-gradient(90deg, rgba(221,169,105,1) 0%, rgba(199,138,63,1) 52%, rgba(143,106,62,1) 100%) !important;
-    text-shadow: 0 0 2px rgb(252, 252, 252);
+    text-shadow: 0 0 0 1px rgb(252, 252, 252);
     text-decoration: none;
     z-index: 10;
 }
@@ -25,7 +26,8 @@ bottom: 0;
     }
 
 .navbar-brand{
-font-display: solid ;
+
+text-decoration: double;
 }
 
 .fa-bars {
@@ -116,7 +118,7 @@ font-size: larger;
 }
 
 .card{
-    padding: 0%;
+    padding:0%;
     border-radius: 0%;
 }
 
@@ -234,13 +236,21 @@ font-size: larger;
 
 .jumbofondo {
 background-image: url(../images/slippers-gb69fe5ac6_1280.jpg);
-background-position: 10px;
+background-position: center cover ;
 color: #FFF;
 text-shadow: 0 0 5px #000;
 padding: 10%;
 margin-bottom: 0cm;
-
 }
+
+.jumbofondo p {
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px #000;
+
+    }
+
+
 .jumbonosotros {
     background-image: url(../images/shoes-sports-slippers-mineral-water-wallpaper-preview.jpg);
 background-size: cover;
@@ -251,11 +261,7 @@ margin-bottom: 0cm;
 
 }
 
-.botonesgaleria {
-    padding: 10px;
+.botongaleria {
+    text-shadow: 0 0 1px#000;
 
 }
-
-
-
-.fondocontacto{}
