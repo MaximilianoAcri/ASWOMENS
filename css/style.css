@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -210,7 +211,7 @@
 .jumbofondo p {
   -webkit-text-decoration: solid;
           text-decoration: solid;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow: 0 0 3px #000;
 }
 
@@ -226,4 +227,42 @@
 .botongaleria {
   text-shadow: 0 0 1px #000;
   width: 100%;
+}
+
+.botones1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footernuevo {
+  overflow: hidden;
+  background: rgb(221, 169, 105);
+  background: linear-gradient(90deg, rgb(221, 169, 105) 0%, rgb(199, 138, 63) 52%, rgb(143, 106, 62) 100%);
+  color: #ffffff !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+small {
+  font-size: calc(12px + 3 * (100vw - 360px) / 1240) !important;
+}
+
+.bold-text {
+  color: #ffffff !important;
+}
+
+.mt-55 {
+  margin-top: calc(50px + 10 * (100vw - 360px) / 1240) !important;
+}
+
+h3 {
+  font-size: calc(34px + 6 * (100vw - 360px) / 1240) !important;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.rights {
+  font-size: calc(10px + 2 * (100vw - 360px) / 1240) !important;
 }/*# sourceMappingURL=style.css.map */

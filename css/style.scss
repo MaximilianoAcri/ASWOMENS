@@ -230,7 +230,7 @@ margin-bottom: 0cm;
 
 p {
     text-decoration: solid;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 3px #000;
 
     }
@@ -255,4 +255,50 @@ margin-bottom: 0cm;
     text-shadow: 0 0 1px#000;
     width: 100%;
 
+}
+
+.botones1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.footernuevo{
+    overflow:hidden; 
+    background: rgb(221,169,105);
+    background: linear-gradient(90deg, rgba(221,169,105,1) 0%, rgba(199,138,63,1) 52%, rgba(143,106,62,1) 100%);
+    color: #ffffff  !important;
+    margin-bottom: 0 ;
+    padding-bottom:0  ;
+}
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color: #ffffff !important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
 }
