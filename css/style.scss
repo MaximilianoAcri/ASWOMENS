@@ -57,14 +57,14 @@
     @media (min-width: 576px) and (max-width: 767.98px){
 
         .tarjetaprincipal {
-            height: 300px;
+            height: 400px;
         }
     }
     
     @media (max-width: 575.98px) {
     
         .tarjetaprincipal {
-            height: 450px;
+            height: 550px;
         }
     
         .carousel-caption p {
@@ -98,6 +98,43 @@
             }
     }
 
+    @media only screen and (max-width: 575px){
+        .tarjetaprincipal {
+            height: 400px;
+        }
+    
+        .carousel-caption p {
+            margin:100 px;
+            font-size: medium;
+            }
+    
+            .carousel-caption  {
+                margin: -20px;
+                padding-top: 25%;
+                font-size: medium;
+                }
+        
+            .carousel-item {
+            height: 300px;
+            }
+            
+            .nosotros {
+                color: rgb(255, 255, 255) ;
+                text-shadow: 0px 0px 5px #000;
+                margin-block-end: 15%;
+                font-size:small !important;
+                background-color: rgba(0, 0, 0, 0.315);
+                left: 0%;
+                right: 0%;
+                top: 0%;
+                padding-top: 15%;
+                margin-top: 0%;
+                margin-block-end: -4%;
+                z-index: 1;
+            }
+    }
+    
+
     .nuestrosproductos{
         background: rgb(221,169,105) !important;
         background: linear-gradient(90deg, rgba(221,169,105,1) 0%, rgba(199,138,63,1) 52%, rgba(143,106,62,1) 100%) !important;
@@ -124,7 +161,6 @@
                 color: #ffff;
             }
             
-
     }
     
     .card:hover{
@@ -262,7 +298,6 @@ margin-bottom: 0cm;
 
 
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-
 
 
 .footernuevo{

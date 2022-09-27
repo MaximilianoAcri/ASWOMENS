@@ -51,12 +51,18 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .tarjetaprincipal {
-    height: 300px;
+    height: 400px;
   }
 }
 @media (max-width: 575.98px) {
-  .tarjetaprincipal {
-    height: 450px;
+  .tarjetaprincipal1 {
+    height: 400px;
+  }
+  .tarjetaprincipal2 {
+    height: 400px;
+  }
+  .tarjetaprincipal3 {
+    height: 400px;
   }
   .carousel-caption p {
     margin: -10px;
@@ -64,26 +70,18 @@
   }
   .carousel-caption {
     margin: -20px;
-    padding-top: 25%;
+    padding-top: 70%;
     font-size: medium;
   }
   .carousel-item {
-    height: 300px;
+    height: 600px;
   }
   .nosotros {
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 5px #000;
-    -webkit-margin-after: 15%;
-            margin-block-end: 15%;
     font-size: small !important;
-    background-color: rgba(0, 0, 0, 0.315);
-    left: 0%;
-    right: 0%;
-    top: 0%;
     padding-top: 15%;
     margin-top: 0%;
-    -webkit-margin-after: -4%;
-            margin-block-end: -4%;
     z-index: 1;
   }
 }
