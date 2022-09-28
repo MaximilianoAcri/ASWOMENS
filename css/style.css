@@ -30,6 +30,7 @@
 /*--------------------------------COMIENZA CARRUSEL----------------------------------------------*/
 .carousel-caption {
   color: rgb(255, 255, 255);
+  align-items: center;
   text-shadow: 0px 0px 5px #000;
   -webkit-margin-after: 15%;
           margin-block-end: 15%;
@@ -49,77 +50,6 @@
   font-size: larger;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .tarjetaprincipal {
-    height: 400px;
-  }
-}
-@media (max-width: 575.98px) {
-  .tarjetaprincipal {
-    height: 550px;
-  }
-  .carousel-caption p {
-    margin: -10px;
-    font-size: medium;
-  }
-  .carousel-caption {
-    margin: -20px;
-    padding-top: 25%;
-    font-size: medium;
-  }
-  .carousel-item {
-    height: 300px;
-  }
-  .nosotros {
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 5px #000;
-    -webkit-margin-after: 15%;
-            margin-block-end: 15%;
-    font-size: small !important;
-    background-color: rgba(0, 0, 0, 0.315);
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    padding-top: 15%;
-    margin-top: 0%;
-    -webkit-margin-after: -4%;
-            margin-block-end: -4%;
-    z-index: 1;
-  }
-}
-@media only screen and (max-width: 575px) {
-  .tarjetaprincipal {
-    height: 400px;
-  }
-  .carousel-caption p {
-    margin: 100 px;
-    font-size: medium;
-  }
-  .carousel-caption {
-    margin: -20px;
-    padding-top: 25%;
-    font-size: medium;
-  }
-  .carousel-item {
-    height: 300px;
-  }
-  .nosotros {
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 5px #000;
-    -webkit-margin-after: 15%;
-            margin-block-end: 15%;
-    font-size: small !important;
-    background-color: rgba(0, 0, 0, 0.315);
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    padding-top: 15%;
-    margin-top: 0%;
-    -webkit-margin-after: -4%;
-            margin-block-end: -4%;
-    z-index: 1;
-  }
-}
 .nuestrosproductos {
   background: rgb(221, 169, 105) !important;
   background: linear-gradient(90deg, rgb(221, 169, 105) 0%, rgb(199, 138, 63) 52%, rgb(143, 106, 62) 100%) !important;
@@ -305,4 +235,115 @@ h3 {
 
 .rights {
   font-size: calc(10px + 2 * (100vw - 360px) / 1240) !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+  .tarjetaprincipal1 {
+    height: 400px;
+  }
+  .tarjetaprincipal2 {
+    height: 400px;
+  }
+  .tarjetaprincipal3 {
+    height: 400px;
+  }
+  .carousel-caption p {
+    margin: 100 px;
+    font-size: medium;
+  }
+  .carousel-caption {
+    margin: -20px;
+    padding-top: 25%;
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width: 768px) {
+  .tarjetaprincipal1 {
+    height: 400px;
+  }
+  .tarjetaprincipal2 {
+    height: 400px;
+  }
+  .tarjetaprincipal3 {
+    height: 400px;
+  }
+  .carousel-caption p {
+    margin: 0px;
+    font-size: medium;
+  }
+  .carousel-caption {
+    margin: -20px;
+    padding-top: 90%;
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .tarjetaprincipal1 {
+    height: 400px;
+  }
+  .tarjetaprincipal2 {
+    height: 400px;
+  }
+  .tarjetaprincipal3 {
+    height: 400px;
+  }
+  .carousel-caption p {
+    margin: 100 px;
+    font-size: medium;
+  }
+  .carousel-caption {
+    margin: -20px;
+    padding-top: 10%;
+    font-size: medium;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+  .nosotros {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px #000;
+    -webkit-margin-after: 15%;
+            margin-block-end: 15%;
+    font-size: small !important;
+    background-color: rgba(0, 0, 0, 0.315);
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    padding-top: 15%;
+    margin-top: 0%;
+    -webkit-margin-after: -4%;
+            margin-block-end: -4%;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width: 760px) {
+  .tarjetaprincipal1 {
+    height: 400px;
+  }
+  .tarjetaprincipal2 {
+    height: 400px;
+  }
+  .tarjetaprincipal3 {
+    height: 400px;
+  }
+  .carousel-caption p {
+    margin: 100 px;
+    font-size: medium;
+  }
+  .carousel-caption {
+    margin: -20px;
+    padding-top: 50%;
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .carousel-caption p {
+    margin: 0px;
+    font-size: medium;
+  }
+  .carousel-caption {
+    margin: -20px;
+    padding-top: 25%;
+    font-size: medium;
+  }
 }/*# sourceMappingURL=style.css.map */
