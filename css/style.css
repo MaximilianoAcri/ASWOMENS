@@ -253,8 +253,11 @@ h3 {
   }
   .carousel-caption {
     margin: -20px;
-    padding-top: 25%;
+    padding-top: 18%;
     font-size: medium;
+  }
+  .carousel-item {
+    height: 600px;
   }
 }
 @media only screen and (min-width: 578px) and (max-width: 768px) {
@@ -275,6 +278,9 @@ h3 {
     margin: -20px;
     padding-top: 90%;
     font-size: medium;
+  }
+  .carousel-item {
+    height: 600px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -297,7 +303,7 @@ h3 {
     font-size: medium;
   }
   .carousel-item {
-    height: 300px;
+    height: auto;
   }
   .nosotros {
     color: rgb(255, 255, 255);
@@ -343,7 +349,7 @@ h3 {
   }
   .carousel-caption {
     margin: -20px;
-    padding-top: 25%;
+    padding-top: 60%;
     font-size: medium;
   }
 }/*# sourceMappingURL=style.css.map */
